@@ -61,7 +61,7 @@
     font-weight: 600;
     border-radius: 10px;
     transition: 300ms linear;
-    padding: .9rem 1.7rem;
+    padding: .9rem 1.7rem .9rem 1.7rem;
 }
 
 .skillset:hover {
@@ -108,11 +108,19 @@
     .btn-group {
         justify-content: center;
     }
+
+    .skillset {
+        padding: .9rem 1.7rem 2.3rem 1.7rem;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .btn-group {
         flex-direction: column;
         align-items: center;
+    }
+
+    .skillset {
+        margin-left: 1.2rem;
     }
 }
