@@ -1,0 +1,72 @@
+.box-item {
+    position: relative;
+    cursor: pointer;
+    box-shadow: #FFC300 0px 2px 5px -1px, #FFC300 0px 1px 3px -1px;
+    transition: 300ms linear;
+    border-radius: 10px;
+    height: 19rem;
+    width: 18rem;
+    text-align: left;
+    padding: 3rem 1.5rem 1.5rem 2rem;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+.box-item:hover {
+    transform: scale(1.04);
+    box-shadow: #FFC300 0px -2px 5px -1px, #FFC300 0px 1px 3px -1px;
+}
+
+.box-heading {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: .5rem;
+    margin-top: 1rem;
+}
+
+.box-inner p {
+    font-size: 13px;
+    font-weight: 200;
+    margin-bottom: 8px;
+}
+
+.box-scroll-icon {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.box-frame {
+    position: absolute;
+    height: 18rem;
+    width: 18rem;
+    border-radius: 10px;
+    background-color: #FFC300;
+    z-index: -9999;
+    top: 5px;
+    left: 5px;
+}
+
+.box-inner p {
+    position: relative;
+    padding-left: 20px;
+    line-height: 25px;
+}
+
+.list-icon {
+    color: #fff;
+    font-size: 7px;
+    position: absolute;
+    top: 8px;
+    left: 0px;
+}
+
+.box-icon {
+    height: 2.4rem;
+    width: 2.7rem;
+}

@@ -1,0 +1,90 @@
+.blog-section {
+    background-color: #000000;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    border: none;
+}
+
+.blog-section-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.blog-section-left {
+    flex: 1;
+}
+
+.blog-section-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.blog-section-left h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    position: relative;
+    line-height: 45px;
+}
+
+.blog-section-left h1 span {
+    color: #F37335;
+}
+
+.blog-section-left p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 1.5rem;
+    line-height: 25px;
+    text-align: left;
+    white-space: wrap;
+}
+
+.glasses-icon {
+    color: #FFC300;
+    font-size: 2.5rem;
+    position: absolute;
+    top: -1rem;
+    right: 0;
+    transform: rotate(280deg);
+}
+
+.blog-btn {
+    color: #FFC300 !important;
+    display: inline-block;
+    text-align: center;
+    background: inherit;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    border-radius: 10px;
+    position: relative;
+    min-width: 8.23em;
+    text-decoration: none;
+    margin-top: 1.5rem;
+    letter-spacing: .8px;
+}
+
+@media screen and (max-width: 992px) {
+    .blog-section-content {
+        flex-direction: column;
+    }
+
+    .blog-section-left h1 {
+        text-align: center;
+    }
+
+    .blog-section-left p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .glasses-icon {
+        display: none;
+    }
+}
+

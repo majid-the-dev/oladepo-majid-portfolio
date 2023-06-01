@@ -1,0 +1,136 @@
+.contact-section {
+    background-color: #FFC300;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    border: none;
+}
+
+.contact-section-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-section-left {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-top: 4rem;
+    flex: 1;
+}
+
+.contact-section-left h1 {
+    position: absolute;
+    top: 0;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    color: #000000;
+}
+
+.contact-section-left img {
+    width: 60%;
+    height: auto;
+}
+
+.contact-section-right {
+    width: 100%;
+    flex: 1;
+}
+
+.contact-section-right h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.contact-section-right p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 1.5rem;
+    line-height: 25px;
+}
+
+.contact-info-section {
+    margin-top: 2rem;
+}
+
+.icon-box {
+    height: 100%;
+    width: 3.3rem;
+    background-color: #F37335;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.telephone-icon,
+.mail-icon,
+.linkedin-icon,
+.github-icon {
+    font-size: 1.5rem;
+    color: #FFC300;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    background-color: rgba(16, 16, 12, 0.062);
+    margin-bottom: 1.5rem;
+    height: 4rem;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.contact-info h6 {
+    color: #F37335;
+    font-size: 10px;
+    font-weight: 500;
+    left: 4.25rem;
+    margin-top: -1rem;
+    position: absolute;
+}
+
+.contact-info a {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 12px;
+    color: #000000;
+    font-weight: 600;
+    letter-spacing: .2px !important;
+    cursor: pointer;
+    white-space: nowrap;
+    width: 100%;
+    overflow-x: hidden !important;
+    text-overflow: ellipsis;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .contact-section-content {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .contact-section-left {
+        justify-content: center;
+    }
+
+    .contact-section-left h1 {
+        text-align: center;
+    }
+
+    .contact-section-left img {
+        width: 60%;
+        height: auto;
+    }
+
+    .contact-section-right h1,
+    .contact-section-right p {
+        text-align: center;
+    }
+}

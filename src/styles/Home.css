@@ -1,0 +1,118 @@
+.hero-section {
+    background-color: #000000;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    border: none;
+}
+
+.hero-section-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.hero-section-left h1 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.hero-section-left h1 span {
+    color: #FFC300;
+}
+
+.hero-section-left p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 1.5rem;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.resume {
+    background-color: #FFC300;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    transition: 300ms linear;
+    padding: .9rem 1.7rem;
+}
+
+.resume:hover {
+    transform: translateY(-4px);
+}
+
+.skillset {
+    background-color: #000000;
+    color: #FFC300;
+    border: 1px solid #FFC300;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: 300ms linear;
+    padding: .9rem 1.7rem;
+}
+
+.skillset:hover {
+    background-color: #FFC300;
+    color: #000000;
+    transform: translateY(-4px);
+}
+
+.hero-section-right {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.hero-section-right img {
+    max-width: 60%;
+    height: auto;
+}
+
+.scroll-down {
+    text-align: center;
+}
+
+.arrow-icon {
+    color: #FFC300;
+    font-size: 2rem;
+    font-weight: 800;
+    text-shadow: 3px 4px 7px rgba(81,67,21,0.8);
+}
+
+@media screen and (max-width: 992px) {
+    .hero-section-content {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .hero-section-left {
+        text-align: center;
+    }
+
+    .btn-group {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .btn-group {
+        flex-direction: column;
+        align-items: center;
+    }
+}

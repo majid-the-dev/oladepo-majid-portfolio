@@ -1,0 +1,39 @@
+.about-section {
+    background-color: #000000;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    border: none;
+}
+
+.about-section-content h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.about-section-content h1 span {
+    color: #F37335;
+}
+
+.about-section-content p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 1.5rem;
+    line-height: 25px;
+    text-align: left;
+    white-space: wrap;
+    width: 50%;
+}
+
+@media screen and (max-width: 992px) {
+
+    .about-section-content {
+        text-align: center;
+    }
+
+    .about-section-content p {
+        width: 100%;
+        text-align: center;
+    }
+}

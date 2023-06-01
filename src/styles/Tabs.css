@@ -1,0 +1,149 @@
+.tab-section {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+button {
+    color: #fff;
+    background-color: inherit;
+    border: 1px solid #FFC300;
+    border-radius: 6px;
+    height: 3rem;
+    min-width: 8rem !important;
+    margin-right: 2rem;
+    font-size: 13px;
+    font-weight: 400;
+    transition: 300ms linear;
+}
+
+button:hover {
+    background-color: #FFC300;
+    color: #000814;
+    font-weight: 600;
+}
+
+.tab-group {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.tab-group::-webkit-scrollbar {
+    display: none;
+}
+
+.outlet {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: inherit;
+    color: #fff;
+    height: 22rem;
+    width: 18rem;
+    border-radius: 10px;
+    text-align: left;
+    margin-top: 3rem;
+    cursor: pointer;
+    padding: 2.5rem 1.5rem 1.5rem 1.5rem;
+    transition: 300ms linear;
+    box-shadow: #FFC300 0px 2px 5px -1px, #FFC300 0px 1px 3px -1px;
+}
+
+.project-card:hover {
+    transform: scale(1.04);
+    box-shadow: #FFC300 0px -2px 5px -1px, #FFC300 0px 1px 3px -1px;
+
+}
+
+.project-card h1 {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: .6rem;
+    margin-top: 1rem;
+}
+
+.project-card a {
+    color: #656565;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.external-link-icon {
+    font-size: .8rem;
+    margin-top: -3px;
+    margin-right: 3px;
+    margin-left: .3rem;
+}
+
+.project-card p {
+    font-size: 11px;
+    line-height: 22px;
+    margin-top: .6rem;
+    font-weight: 500;
+}
+
+button.active {
+    background-color: #FFC300;
+    color: #000814;
+    font-weight: 600;
+}
+
+.repo-btn {
+    background: inherit;
+    border: 1px solid #656565;
+    padding: .5rem .5rem;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.repo-icon {
+    margin-left: .2rem;
+}
+
+.repo-btn:hover .repo-icon {
+    margin-left: 1rem;
+    transition: 500ms ease-in-out;
+}
+
+.no-projects {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.no-projects h6 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.emoji {
+    color: #FFC300;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
+/* Media Queries */
+
+@media screen and (min-width: 768px){
+    .tab-group {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    button {
+        height: 2.5rem;
+        font-size: 12px;
+        min-width: 6rem !important;
+        margin-right: 1rem;
+    }
+}
