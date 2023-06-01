@@ -2,7 +2,8 @@ import React, {useState} from 'react';
 import '../styles/Navbar.css';
 import { Link } from 'react-scroll';
 import { CgMenuGridO } from 'react-icons/cg';
-import { IoClose } from 'react-icons/io5'
+import { IoClose } from 'react-icons/io5';
+import 'animate.css';
 
 
 const Navbar = () => {
@@ -26,7 +27,7 @@ const Navbar = () => {
                     {!isOpen ? <CgMenuGridO className='menu-icon' onClick={handleClick} /> : <IoClose className='menu-icon' onClick={handleClick} />}
 
                     {isOpen &&
-                        <div className='side-menu'>
+                        <div className='side-menu animate__animated animate__pulse'>
                             <ul className='side-menu-items'>
                                 <li className='side-menu-item'>
                                     <Link

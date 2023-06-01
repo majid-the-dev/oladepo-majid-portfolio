@@ -157,10 +157,12 @@ li {
     height: 15rem;
     width: 12rem;
     background-color: #FFC300;
+    border-radius: 10px;
     position: absolute;
     right: 1.5rem;
     top: 5rem;
     display: flex;
+    transition: 300ms linear;
     /* align-items: center; */
 }
 
