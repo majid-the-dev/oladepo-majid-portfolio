@@ -13,7 +13,7 @@ const Contact = (props) => {
                     <div className='contact-section-content'>
                         <div className='contact-section-left'>
                             <h1>Want to <span>get</span> in touch?</h1>
-                            <img src={contactImage} alt='contact-section-image' />
+                            <img src={contactImage} alt='contact' />
                         </div>
 
                         <div className='contact-section-right'>
@@ -44,14 +44,14 @@ const Contact = (props) => {
                                         <FaGithub className='github-icon' />
                                     </div>
                                     <h6>GITHUB (click to view my repo)</h6>
-                                    <a href='https://github.com/majid-the-dev' target='_blank'>https://github.com/majid-the-dev</a>
+                                    <a href='https://github.com/majid-the-dev' target='_blank' rel="noreferrer">https://github.com/majid-the-dev</a>
                                 </a>
                                 <a href='https://www.linkedin.com/in/majid-oladepo-017b06252/' className='contact-info'>
                                     <div className='icon-box'>
                                         <FaLinkedinIn className='linkedin-icon' />
                                     </div>
                                     <h6>LINKEDIN (click to connect)</h6>
-                                    <a href='https://www.linkedin.com/in/majid-oladepo-017b06252/' target='_blank' className='linkedin-link'>https://www.linkedin.com/in/majid-oladepo-017b06252/</a>
+                                    <a href='https://www.linkedin.com/in/majid-oladepo-017b06252/' target='_blank' rel="noreferrer" className='linkedin-link'>https://www.linkedin.com/in/majid-oladepo-017b06252/</a>
                                 </a>
                             </div>
                         </div>

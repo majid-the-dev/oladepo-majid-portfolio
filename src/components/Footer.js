@@ -15,16 +15,16 @@ const Footer = () => {
                     <div className='footer-section-left'>
                         <div className='icon-group'>
                             <div className='icon-circle'>
-                                <a href="https://www.linkedin.com/in/majid-oladepo-017b06252/" target='_blank'><FaLinkedinIn className='footer-icon' /></a>
+                                <a href="https://www.linkedin.com/in/majid-oladepo-017b06252/" target='_blank' rel="noreferrer"><FaLinkedinIn className='footer-icon' /></a>
                             </div>
                             <div className='icon-circle'>
-                                <a href="https://github.com/majid-the-dev" target='_blank'><FaGithub className='footer-icon' /></a>
+                                <a href="https://github.com/majid-the-dev" target='_blank' rel="noreferrer"><FaGithub className='footer-icon' /></a>
                             </div>
                             <div className='icon-circle'>
-                                <a href="https://www.instagram.com/" target='_blank'><FaInstagram className='footer-icon' /></a>
+                                <a href="https://www.instagram.com/" target='_blank' rel="noreferrer"><FaInstagram className='footer-icon' /></a>
                             </div>
                             <div className='icon-circle'>
-                                <a href="https://www.twitter.com/" target='_blank'><FaTwitter className='footer-icon' /></a>
+                                <a href="https://www.twitter.com/" target='_blank' rel="noreferrer"><FaTwitter className='footer-icon' /></a>
                             </div>
                         </div>
                     </div>
