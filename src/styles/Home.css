@@ -95,7 +95,7 @@
 }
 
 .modal-content {
-    background-color: #FFC300;
+    background-color: #000000;
     border: 1px solid #FFC300;
     height: 70%;
     padding: 1.6rem;
@@ -128,7 +128,7 @@
 }
 
 .skill-item h1 {
-    color: #000000;
+    color: #FFC300;
     text-align: left;
     font-size: 15px;
     font-weight: 600;
@@ -143,11 +143,11 @@
 
 .progress::-webkit-progress-bar {
     appearance: none;
-    border: 1.5px solid #000000 !important;
+    border: 1.5px solid #FFC300 !important;
 }
 
 .progress::-webkit-progress-value {
-    background-color: #000000 !important;
+    background-color: #FFC300 !important;
 }
 
 @media screen and (max-width: 992px) {
@@ -182,6 +182,10 @@
 
     .skillset {
         margin-left: 1.2rem;
+    }
+
+    .modal-content {
+        height: 85%;
     }
 }
 
