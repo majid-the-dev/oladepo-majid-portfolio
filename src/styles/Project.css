@@ -32,6 +32,10 @@
         text-align: center;
     }
 
+    .project-section-content h1 {
+        line-height: 40px;
+    }
+
     .project-section-content p {
         width: 100%;
         text-align: center;

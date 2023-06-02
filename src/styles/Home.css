@@ -11,6 +11,10 @@
     justify-content: space-evenly;
 }
 
+.hero-section-left {
+    flex: 1;
+}
+
 .hero-section-left h1 {
     color: #fff;
     font-size: 45px;
@@ -76,6 +80,7 @@
     justify-content: center;
     align-items: center;
     padding: 1rem;
+    flex: 1;
 }
 
 .hero-section-right img {
@@ -91,7 +96,66 @@
     color: #FFC300;
     font-size: 2rem;
     font-weight: 800;
-    text-shadow: 3px 4px 7px rgba(81,67,21,0.8);
+    text-shadow: 3px 4px 7px rgba(81, 67, 21, 0.8);
+}
+
+.modal-content {
+    background-color: #000000;
+    /* border: 1px solid #FFC300; */
+    height: 70%;
+    padding-bottom: 2rem;
+}
+
+.avatar {
+    background-color: red;
+    height: 3.5rem;
+    width: 3.7rem;
+    border-radius: 50%;
+    background-image: url(../assets/avatar.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.close-btn {
+    color: #FFC300;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.skill-item {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.skill-item h1 {
+    color: #FFC300;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.progress {
+    width: 90%;
+    height: 1.2rem;
+    position: relative;
+    margin-top: -.5rem;
+}
+
+.progress::after {
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    background-color: #FFC300;
+}
+
+.progress::-webkit-progress-bar {
+    appearance: none;
+    border: 1.5px solid #FFC300 !important;
+    background-color: #000000;
+}
+
+.progress::-webkit-progress-value {
+    background-color: #FFC300 !important;
 }
 
 @media screen and (max-width: 992px) {
@@ -103,6 +167,10 @@
 
     .hero-section-left {
         text-align: center;
+    }
+
+    .hero-section-left h1 {
+        line-height: 50px;
     }
 
     .btn-group {
