@@ -70,6 +70,14 @@
     transform: translateY(-4px);
 }
 
+.skillset:active,
+.skillset:focus {
+    background-color: #FFC300;
+    color: #000000;
+    transform: translateY(-4px);
+    border: none;
+}
+
 .hero-section-right {
     /* border: 1px solid red; */
     display: flex;
@@ -99,6 +107,7 @@
     border: none;
     height: 90%;
     padding: 1.6rem;
+    box-shadow: rgba(255, 195, 0, 1) 0px 1px 3px, rgba(255, 195, 0, 1) 0px 1px 2px;
 }
 
 .modal-body::-webkit-scrollbar {
@@ -121,9 +130,10 @@
 }
 
 .close-btn {
-    color: #FFC300;
+    color: #FFC300 !important;
     font-size: 1.5rem;
     font-weight: 700;
+    display: block !important;
 }
 
 .skill-item {
