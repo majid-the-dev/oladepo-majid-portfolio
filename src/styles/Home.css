@@ -97,8 +97,12 @@
 .modal-content {
     background-color: #000000;
     border: none;
-    height: 70%;
+    height: 90%;
     padding: 1.6rem;
+}
+
+.modal-body::-webkit-scrollbar {
+    display: none !important;
 }
 
 .modal-header,
@@ -108,8 +112,8 @@
 
 .avatar {
     background-color: red;
-    height: 3.8rem;
-    width: 4rem;
+    height: 3rem;
+    width: 3rem;
     border-radius: 50%;
     background-image: url(../assets/avatar.jpeg);
     background-size: cover;
@@ -117,14 +121,14 @@
 }
 
 .close-btn {
-    color: #000000;
-    font-size: 2.5rem;
+    color: #FFC300;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
 .skill-item {
     position: relative;
-    margin-bottom: 1rem;
+    margin-bottom: .8rem;
 }
 
 .skill-item h1 {
@@ -136,7 +140,7 @@
 
 .progress {
     width: 100%;
-    height: .5rem;
+    height: .6rem;
     position: relative;
     margin-top: -1rem;
 }
