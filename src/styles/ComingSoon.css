@@ -1,0 +1,58 @@
+.coming-soon {
+    width: 100%;
+    background-color: inherit;
+}
+
+.coming-soon-content-left,
+.coming-soon-content-right {
+    height: 24rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.coming-soon-content-right {
+    align-items: center;
+}
+
+.coming-soon-content-right img {
+    max-height: 70%;
+    max-width: 70%;
+}
+
+
+.coming-soon-content-left h1 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.coming-soon-content-left p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.clock-icon {
+    color: #FFC300;
+}
+
+.link-style {
+    color: #FFC300 !important;
+    text-decoration: none;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+}
+
+@media screen and (max-width:992px) {
+    .coming-soon-content-left,
+    .coming-soon-content-right {
+        align-items: center;
+    }
+
+    .coming-soon-content-right {
+        justify-content: flex-start;
+    }
+
+}

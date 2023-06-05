@@ -3,7 +3,7 @@ import '../styles/Home.css';
 import heroImage from '../assets/Nerd-pana.png';
 import { Link } from 'react-scroll';
 import { RxDoubleArrowDown } from 'react-icons/rx';
-import { IoClose } from 'react-icons/io5';
+// import { IoClose } from 'react-icons/io5';
 import 'animate.css';
 import { skillsetData } from './skillsetData';
 
@@ -34,6 +34,7 @@ const Home = () => {
                                 <a href="/resume.pdf" className='resume' target='_blank'>Explore resumé</a>
                                 <button className='skillset' data-bs-toggle="modal" data-bs-target="#staticBackdrop">Explore skillset</button>
                             </div>
+
                             <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                                 <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                     <div className="modal-content">
@@ -43,7 +44,9 @@ const Home = () => {
                                                 <img src="" alt="" />
                                             </div>
 
-                                            <IoClose type='button' className='close-btn' data-bs-dismiss="modal" aria-label="Close" />
+                                            {/* <IoClose type='button' className='close-btn' data-bs-dismiss="modal" aria-label="Close" /> */}
+                                            {/* <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style={{ color: '#FFC300' }}></button> */}
+                                            <p className='close-btn' data-bs-dismiss="modal" aria-label="Close">X</p>
                                         </div>
                                         <div className="modal-body">
                                             {skill}
@@ -55,6 +58,7 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div>
+                            
                         </div>
                         <div className='hero-section-right'>
                             <img src={heroImage} alt="" />

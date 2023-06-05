@@ -41,3 +41,10 @@
         text-align: center;
     }
 }
+
+@media screen and (max-width: 576px) {
+    .project-section-content p {
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
+    }
+}

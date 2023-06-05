@@ -102,12 +102,23 @@ li {
     padding: 0;
 }
 
+.side-menu-items li:first-child .nav-link {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.side-menu-items li:last-child .nav-link {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
 .side-menu-item {
     color: #000814;
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
     padding: .3rem 0rem .3rem 0rem;
+    /* border-radius: 10px; */
 
 }
 

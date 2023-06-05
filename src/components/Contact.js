@@ -37,7 +37,7 @@ const Contact = () => {
                                         <AiFillMail className='mail-icon' />
                                     </div>
                                     <h6>EMAIL (click to send a mail)</h6>
-                                    <a href="mailto:contactmajidoladepo@gmail.com?subject = Feedback & body = Message">contactmajidoladepo@gmail.com</a>
+                                    <a href="mailto:majidoladepo@yahoo.com?subject = Feedback & body = Message">majidoladepo@yahoo.com</a>
                                 </a>
                                 <a href='https://github.com/majid-the-dev' className='contact-info'>
                                     <div className='icon-box'>
