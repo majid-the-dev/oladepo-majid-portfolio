@@ -46,7 +46,7 @@ const Tabs = () => {
                 <a href={card.url}>{card.url}<FiExternalLink className='external-link-icon' /></a>
                 <br />
                 <p>{card.description}</p>
-                <a href="https://www.google.com" className='repo-btn'>View Repository <BsArrowRight className='repo-icon' /></a>
+                <a href={card.repo} className='repo-btn'>View Repository <BsArrowRight className='repo-icon' /></a>
             </div>
         ));
     };

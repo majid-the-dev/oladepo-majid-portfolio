@@ -1,11 +1,11 @@
 export const tabData = [
     {
         id: 1,
-        title: "Vanilla JS"
+        title: "React JS"
     },
     {
         id: 2,
-        title: "React JS"
+        title: "Next JS"
     },
     {
         id: 3,

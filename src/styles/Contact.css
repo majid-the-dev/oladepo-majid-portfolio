@@ -43,6 +43,8 @@
     font-size: 30px;
     font-weight: 700;
     line-height: 40px;
+    color: #000000;
+
 }
 
 .contact-section-right p {
@@ -50,6 +52,7 @@
     font-weight: 500;
     margin-top: 1.5rem;
     line-height: 25px;
+    color: #000000;
 }
 
 .contact-info-section {
