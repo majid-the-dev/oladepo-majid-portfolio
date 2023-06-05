@@ -4,7 +4,7 @@ import ComingSoon from '../components/ComingSoon';
 
 const Blogpage = () => {
   return (
-    <div className='hero-section'>
+    <div className='blogpage-section'>
         <ComingSoon />
     </div>
   )
