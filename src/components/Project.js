@@ -1,9 +1,9 @@
 import React from 'react';
 import '../styles/Project.css';
 
-const Project = (props) => {
+const Project = () => {
     return (
-        <div className='project-section' id={props.id}>
+        <div className='project-section'>
             <div className='content-box-md'>
                 <div className='container'>
                     <div className='project-section-content'>

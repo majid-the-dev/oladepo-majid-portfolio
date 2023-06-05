@@ -7,7 +7,7 @@ import { IoClose } from 'react-icons/io5';
 import 'animate.css';
 import { skillsetData } from './skillsetData';
 
-const Home = (props) => {
+const Home = () => {
 
     const skill = skillsetData.map(skillItem => {
         return (
@@ -24,7 +24,7 @@ const Home = (props) => {
                 <div className='container'>
                     <div className='hero-section-content'>
                         <div className='hero-section-left'>
-                            <h1 id={props.id}>Hi there! I'm a <span>software</span> developer</h1>
+                            <h1>Hi there! I'm a <span>software</span> developer</h1>
                             <p>Welcome to my <span>digital playground!</span> My name is Oladepo Majid
                                 and I'm a software developer with a specialized focus on web technologies
                                 and applications who's always exploring the latest technologies and pushing
@@ -60,9 +60,8 @@ const Home = (props) => {
                             <img src={heroImage} alt="" />
                         </div>
                     </div>
-
                     <div className='scroll-down'>
-                        <Link to="About">
+                        <Link to="about">
                             <RxDoubleArrowDown className='arrow-icon animate__animated animate__fadeOutDown animate__infinite animate__slow' />
                         </Link>
                     </div>

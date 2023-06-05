@@ -32,11 +32,12 @@ const Navbar = () => {
                                 <li className='side-menu-item'>
                                     <Link
                                         activeClass="active"
-                                        to="Home"
+                                        to="home"
                                         spy={true}
                                         smooth={true}
-                                        offset={50}
+                                        offset={0}
                                         duration={500}
+                                        className='nav-link'
                                     >
                                         Home
                                     </Link>
@@ -44,11 +45,12 @@ const Navbar = () => {
                                 <li className='side-menu-item'>
                                     <Link
                                         activeClass="active"
-                                        to="About"
+                                        to="about"
                                         spy={true}
                                         smooth={true}
-                                        offset={50}
+                                        offset={-80}
                                         duration={500}
+                                        className='nav-link'
                                     >
                                         About Me
                                     </Link>
@@ -56,11 +58,12 @@ const Navbar = () => {
                                 <li className='side-menu-item'>
                                     <Link
                                         activeClass="active"
-                                        to="Projects"
+                                        to="projects"
                                         spy={true}
                                         smooth={true}
-                                        offset={50}
+                                        offset={-50}
                                         duration={500}
+                                        className='nav-link'
                                     >
                                         Projects
                                     </Link>
@@ -68,11 +71,12 @@ const Navbar = () => {
                                 <li className='side-menu-item'>
                                     <Link
                                         activeClass="active"
-                                        to="Contact"
+                                        to="contact"
                                         spy={true}
                                         smooth={true}
-                                        offset={50}
+                                        offset={-50}
                                         duration={500}
+                                        className='nav-link'
                                     >
                                         Contact Me
                                     </Link>
@@ -80,11 +84,12 @@ const Navbar = () => {
                                 <li className='side-menu-item'>
                                     <Link
                                         activeClass="active"
-                                        to="Blog"
+                                        to="blog"
                                         spy={true}
                                         smooth={true}
-                                        offset={50}
+                                        offset={0}
                                         duration={500}
+                                        className='nav-link'
                                     >
                                         Blog
                                     </Link>
@@ -97,11 +102,12 @@ const Navbar = () => {
                         <li className='nav-item'>
                             <Link
                                 activeClass="active"
-                                to="Home"
+                                to="home"
                                 spy={true}
                                 smooth={true}
-                                offset={50}
+                                offset={0}
                                 duration={500}
+                                className="nav-item-link"
                             >
                                 Home
                             </Link>
@@ -109,11 +115,12 @@ const Navbar = () => {
                         <li className='nav-item'>
                             <Link
                                 activeClass="active"
-                                to="About"
+                                to="about"
                                 spy={true}
                                 smooth={true}
-                                offset={50}
+                                offset={-80}
                                 duration={500}
+                                className="nav-item-link"
                             >
                                 About Me
                             </Link>
@@ -121,11 +128,12 @@ const Navbar = () => {
                         <li className='nav-item'>
                             <Link
                                 activeClass="active"
-                                to="Projects"
+                                to="projects"
                                 spy={true}
                                 smooth={true}
-                                offset={50}
+                                offset={-80}
                                 duration={500}
+                                className="nav-item-link"
                             >
                                 Projects
                             </Link>
@@ -133,11 +141,12 @@ const Navbar = () => {
                         <li className='nav-item'>
                             <Link
                                 activeClass="active"
-                                to="Contact"
+                                to="contact"
                                 spy={true}
                                 smooth={true}
-                                offset={50}
+                                offset={-80}
                                 duration={500}
+                                className="nav-item-link"
                             >
                                 Contact Me
                             </Link>
@@ -145,11 +154,12 @@ const Navbar = () => {
                         <li className='nav-item'>
                             <Link
                                 activeClass="active"
-                                to="Blog"
+                                to="blog"
                                 spy={true}
                                 smooth={true}
-                                offset={50}
+                                offset={-80}
                                 duration={500}
+                                className="nav-item-link"
                             >
                                 Blog
                             </Link>

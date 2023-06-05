@@ -1,3 +1,13 @@
+.navbar {
+    position: fixed;
+    z-index: 999999999;
+}
+
+.home {
+    padding-top: 6rem;
+    /* border: 10px solid red; */
+}
+
 .homepage {
     position: relative;
 }

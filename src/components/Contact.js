@@ -5,9 +5,9 @@ import { AiFillMail } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import contactImage from '../assets/Contact-image.png';
 
-const Contact = (props) => {
+const Contact = () => {
     return (
-        <div className='contact-section' id={props.id}>
+        <div className='contact-section'>
             <div className='content-box-md'>
                 <div className='container'>
                     <div className='contact-section-content'>

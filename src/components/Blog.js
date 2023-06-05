@@ -4,7 +4,7 @@ import { RxDoubleArrowRight } from 'react-icons/rx';
 import { GiMagnifyingGlass } from 'react-icons/gi';
 import { Link } from 'react-router-dom';
 
-const Blog = (props) => {
+const Blog = () => {
     return (
         <div className='blog-section'>
             <div className='content-box-md'>

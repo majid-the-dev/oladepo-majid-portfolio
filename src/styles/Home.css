@@ -1,8 +1,9 @@
 .hero-section {
     background-color: #000000;
     padding-top: 3.5rem;
-    padding-bottom: 4rem;
-    border: none;
+    /* margin-bottom: 4rem; */
+    /* border: none; */
+    /* overflow-y: hidden; */
 }
 
 .hero-section-content {

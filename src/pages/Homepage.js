@@ -11,11 +11,11 @@ import Contact from '../components/Contact';
 import Blog from '../components/Blog';
 import Footer from '../components/Footer';
 
-const Homepage = () => {
+const Homepage = (props) => {
 
   const boxes = data.map(item => {
     return (
-      <Box 
+      <Box
         {...item}
         key={item.id}
       />
@@ -24,41 +24,41 @@ const Homepage = () => {
 
   return (
     <div className='homepage'>
-      <section>
+      <section id='navbar' className='navbar'>
         <Navbar />
       </section>
 
-      <section>
+      <section id='home' className='home'>
         <Home />
       </section>
 
-      <section>
+      <section id='about'>
         <About />
-      </section>
 
-      <section className='box-section'>
-        <div className='content-box-md'>
-          <div className='container'>
-            <div className='card-section'>
-              {boxes}
+        <div className='box-section'>
+          <div className='content-box-md'>
+            <div className='container'>
+              <div className='card-section'>
+                {boxes}
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section>
+      <section id='projects'>
         <Project />
+
+        <div className='tabs-section'>
+          <Tabs />
+        </div>
       </section>
 
-      <section className='tabs-section'>
-        <Tabs />
-      </section>
-
-      <section>
+      <section id='contact'>
         <Contact />
       </section>
 
-      <section>
+      <section id='blog'>
         <Blog />
       </section>
 

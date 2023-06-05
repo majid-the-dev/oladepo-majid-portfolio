@@ -1,9 +1,9 @@
 import React from 'react';
 import '../styles/About.css';
 
-const About = (props) => {
+const About = () => {
     return (
-        <div className='about-section' id={props.id}>
+        <div className='about-section'>
             <div className='content-box-md'>
                 <div className='container'>
                     <div className='about-section-content'>
