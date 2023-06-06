@@ -128,7 +128,7 @@
 }
 
 .avatar {
-    background-color: red;
+    background-color: inherit;
     height: 3rem;
     width: 3rem;
     border-radius: 50%;
