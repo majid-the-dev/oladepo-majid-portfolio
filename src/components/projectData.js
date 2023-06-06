@@ -4,7 +4,7 @@ export const projectData = [
         tabIds: [1],
         icon: "/assets/weather.png",
         title: "Portfolio",
-        description: "Web-based tool designed to provide real-time weather information to users. It uses APIs from various weather data sources to fetch weather data and present it in an easy-to-understand format.",
+        description: "Portfolio showcasing my work as a software developer. It encompasses my projects, highlights my technical expertise, and provides a seamless way to connect with me.",
         url: "https://oladepomajid.netlify.app/",
         repo: "https://github.com/majid-the-dev/oladepo-majid-portfolio"
     },
