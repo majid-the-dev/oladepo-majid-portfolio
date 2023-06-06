@@ -14,7 +14,7 @@ const ComingSoon = () => {
                             <div className='coming-soon-content-left'>
                                 <h1>COMING SOON</h1>
                                 <p>Website under construction <FaClock className='clock-icon' /></p>
-                                <Link to='/' className='link-style'>Back To Home</Link>
+                                <Link to='/' className='link-style'>Back To Portfolio</Link>
                             </div>
                         </div>
                         <div className='col-lg-6'>
