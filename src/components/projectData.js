@@ -23,7 +23,7 @@ export const projectData = [
         icon: "",
         title: "Airbnb-clone",
         description: "Fullstack airbnb-clone built using React for the frontend, Node.js for the backend, and MongoDB as the database. It replicates the core functionality and features of the popular accommodation rental platform.",
-        url: "https://web-tenzies.netlify.app/",
-        repo: "https://github.com/majid-the-dev/tenzies"
+        url: "https://github.com/majid-the-dev/Airbnb-clone",
+        repo: "https://github.com/majid-the-dev/Airbnb-clone"
     },
 ]
