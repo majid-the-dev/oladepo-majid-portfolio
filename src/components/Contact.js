@@ -51,7 +51,7 @@ const Contact = () => {
                                         <FaLinkedinIn className='linkedin-icon' />
                                     </div>
                                     <h6>LINKEDIN (click to connect)</h6>
-                                    <a href='https://www.linkedin.com/in/majid-oladepo-017b06252/' target='_blank' rel="noreferrer" className='linkedin-link'>https://www.linkedin.com/in/majid-oladepo-017b06252/</a>
+                                    <a href='https://www.linkedin.com/in/majid-oladepo-gmcpn-017b06252/' target='_blank' rel="noreferrer" className='linkedin-link'>https://www.linkedin.com/in/majid-oladepo-017b06252/</a>
                                 </a>
                             </div>
                         </div>
